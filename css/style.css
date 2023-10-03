@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Noto Sans KR', sans-serif;
   text-align: center;
 }
 
@@ -12,7 +12,6 @@ input {
   background-color: #f000;
   width: 500px;
   font-size: 40px;
-  font-family: 'Black Ops One', cursive;
   margin: 50px 0;
 }
 
@@ -63,11 +62,13 @@ img {
 #clock {
   text-align: center;
   margin: auto;
+  font-family: 'Black Ops One', cursive;
   font-size: 100px;
 }
 
 #weather {
   text-align: end;
+  font-family: 'Black Ops One', cursive;
 }
 
 #weather span:first-child {
