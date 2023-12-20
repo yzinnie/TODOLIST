@@ -1,9 +1,9 @@
 const quotes = [
-  {
-    quote:
-      'If you really want to do something, you will find a way. If you do not, you will find an excuse.',
-    author: 'Jim Rohn',
-  },
+  // {
+  //   quote:
+  //     'If you really want to do something, you will find a way. If you do not, you will find an excuse.',
+  //   author: 'Jim Rohn',
+  // },
   {
     quote:
       'No need to hurry. No need to sparkle. No need to be anybody but oneself.',
