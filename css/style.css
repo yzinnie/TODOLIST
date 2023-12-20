@@ -87,7 +87,6 @@ body::-webkit-scrollbar {
   background-color: white;
   position: absolute;
   top: -8px;
-  animation: fall 10s linear;
 }
 
 @keyframes fall {
