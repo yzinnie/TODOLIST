@@ -16,3 +16,8 @@ https://openweathermap.org/current
 #### OpenWeatherMap에서 받은 현재 사용자의 city, weather 정보 출력
 #### 현재 사용자의 시간 출력
 #### Background image의 랜덤 기능
+---
+
+#### 겨울 기념 눈 내리는 기능 추가 ❄ ⛄ 🌨
+![image](https://github.com/yzinnie/JS-Project-TODO/assets/126447980/51c5f503-a918-4a40-a3ba-6985af709b48)
+
