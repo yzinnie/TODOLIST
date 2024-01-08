@@ -107,3 +107,16 @@ body::-webkit-scrollbar {
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 576px) {
+  #clock {
+    font-size: 50px;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}
+
