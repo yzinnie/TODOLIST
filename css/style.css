@@ -32,8 +32,17 @@ input::placeholder {
   color: #ffffff;
 }
 
+.todo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 ul {
   font-size: 20px;
+  width: fit-content;
+  height: fit-content;
 }
 
 li {
@@ -57,7 +66,8 @@ img {
   right: 0px;
   bottom: 0px;
   z-index: -1;
-  opacity: 80%;
+  object-fit: cover;
+  /* opacity: 80%; */
 }
 
 #clock {
