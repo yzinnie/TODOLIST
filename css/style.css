@@ -99,6 +99,10 @@ body::-webkit-scrollbar {
   top: -8px;
 }
 
+.todo button {
+  color: #ffffff;
+}
+
 @keyframes fall {
   from {
   }
@@ -125,6 +129,12 @@ body::-webkit-scrollbar {
   }
   #login-btn {
     display: none;
+  }
+   .snowflake {
+    display: none;
+  }
+  img {
+    position: fixed;
   }
 }
 
