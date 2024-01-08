@@ -118,5 +118,13 @@ body::-webkit-scrollbar {
     flex-wrap: nowrap;
     align-items: center;
   }
+  #input-name,
+  #todo-form input {
+    font-size: 30px;
+    text-align: center;
+  }
+  #login-btn {
+    display: none;
+  }
 }
 
