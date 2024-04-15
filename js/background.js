@@ -1,7 +1,8 @@
+/* 배경 이미지 파일 */
 const images = ['1.jpg', '2.jpg'];
 
-const chosenImage = images[Math.floor(Math.random() * images.length)];
-const bgImage = document.createElement('img');
+const randomImg = images[Math.floor(Math.random() * images.length)];
+const backImg = document.createElement('img');
 
-bgImage.src = `img/${chosenImage}`;
-document.body.appendChild(bgImage);
+backImg.src = `img/${randomImg}`;
+document.body.appendChild(backImg);
