@@ -110,6 +110,10 @@ body::-webkit-scrollbar {
   color: #ffffff;
 }
 
+.todo button {
+  color: #ffffff;
+}
+
 @keyframes fall {
   from {
   }
