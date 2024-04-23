@@ -14,7 +14,8 @@ input {
   border: none;
   background-color: rgba(0, 0, 0, 0);
   width: 500px;
-  font-size: 120%;
+  font-weight: 400;
+  font-size: 130%;
   margin: 50px 0;
 }
 
@@ -46,13 +47,23 @@ input::placeholder {
 }
 
 ul {
-  font-size: 20px;
-  width: fit-content;
-  height: fit-content;
+  font-size: 100%;
+  border-radius: 15px;
+  width: 250px;
+  height: max-content;
+  background-color: #f5f0f068;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 li {
-  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
   list-style: none;
 }
 
@@ -107,11 +118,7 @@ body::-webkit-scrollbar {
 }
 
 .todo button {
-  color: #ffffff;
-}
-
-.todo button {
-  color: #ffffff;
+  color: #000000;
 }
 
 @keyframes fall {

@@ -22,7 +22,7 @@ function paintToDo(paintNewTodo) {
   const span = document.createElement('span');
   span.innerText = paintNewTodo.text;
   const button = document.createElement('button');
-  button.innerText = '완료';
+  button.innerText = '✖';
   button.addEventListener('click', deleteToDo);
   li.appendChild(span);
   li.appendChild(button);

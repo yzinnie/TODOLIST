@@ -1,9 +1,9 @@
 const quotes = [
-  // {
-  //   quote:
-  //     'If you really want to do something, you will find a way. If you do not, you will find an excuse.',
-  //   author: 'Jim Rohn',
-  // },
+  {
+    quote:
+      'One cannot think well, love well, sleep well, if one has not dined well.',
+    author: "Virginia Woolf, A Room of One's Own",
+  },
   {
     quote:
       'No need to hurry. No need to sparkle. No need to be anybody but oneself.',
